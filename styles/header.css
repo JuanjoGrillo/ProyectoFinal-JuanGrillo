@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    font-size: 2rem;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-self: center;
+    cursor: pointer;
+}

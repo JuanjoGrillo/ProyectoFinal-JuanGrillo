@@ -1,0 +1,59 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh auto 10vh;
+    background-color: gray;
+}
+.index{
+    display: flex;
+    background-color: cadetblue;
+}
+.index > *{
+    width: 50%;
+}
+.hero{
+    background: url('imgs/disco-1.jpg');
+    background-size: cover;
+    display: flex;
+}
+.hero p{
+    height: fit-content;
+    background-color: black;
+    align-self: center;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 4rem;
+    color :white;
+}
+.form1, .form2{
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+}
+.form1 button,
+.form2 button
+{
+    margin: 2rem 0;
+    padding: 0.5rem 0;
+}
+.form1 input,
+.form2 input {
+    padding: 0.6rem 0;
+}
+.form1 fieldset,
+.form2 fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 1rem 0;
+}

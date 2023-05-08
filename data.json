@@ -1,0 +1,83 @@
+{
+    "discos":[
+        {
+            "nombre":"invisible",
+            "artista":"invisible",
+            "año":"1973",
+            "precio": 2000,
+            "cantidad": 12
+        },
+        {
+            "nombre":"veinticinco",
+            "artista":"adele",
+            "año":"2014",
+            "precio": 3000,
+            "cantidad": 24
+        },
+        {
+            "nombre":"dark side of the moon",
+            "artista":"pink floyd",
+            "año":"1970",
+            "precio": 4500,
+            "cantidad": 20
+        },
+        {
+            "nombre":"frank sinatra",
+            "artista":"nombre",
+            "año":"1969",
+            "precio": 3000,
+            "cantidad": 10
+        }, 
+        {
+            "nombre":"the marshall mathers lp",
+            "artista":"eminem",
+            "año":"2000",
+            "precio": 2000,
+            "cantidad": 30
+        },
+        {
+            "nombre":"bicicleta",
+            "artista":"seru giran",
+            "año":"1980",
+            "precio": 3000,
+            "cantidad": 10
+        }
+    ],
+    "revistas":[
+        {
+            "nombre":"rolling stones",
+            "edicion":"#66",
+            "precio":1000,
+            "cantidad": 50
+        },
+        {
+            "nombre":"vibe",
+            "edicion":"#38",
+            "precio": 1000,
+            "cantidad": 25
+        },
+        {
+            "nombre":"the source",
+            "edicion":"#50",
+            "precio": 750,
+            "cantidad": 35
+        }
+    ],
+    "tocadiscos":[
+        {
+            "nombre": "winco",
+            "precio": "40000",
+            "cantidad": 20
+        },
+        {
+            "nombre": "spica",
+            "precio": "45000",
+            "cantidad": 25
+        },
+        {
+            "nombre": "gadnic",
+            "precio": "30000",
+            "cantidad": 30
+        }
+    ]
+}
