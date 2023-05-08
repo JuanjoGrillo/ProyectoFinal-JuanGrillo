@@ -24,10 +24,10 @@ function cargarCatalogo(){
     document.querySelector('.barraCatalogo__revistas').addEventListener('click', mostrarRevistas);
     document.querySelector('.barraCatalogo__tocadiscos').addEventListener('click', mostrarTocadiscos);
 }
-function mostrarDiscos(){
+async function mostrarDiscos(){
     main.innerHTML='';
     cargarCatalogo();
-    fetch('data.json').then(catalogo => catalogo.json()).then(catalogo => crearArticulos(catalogo.discos));
+    await fetch('data.json').then(catalogo => catalogo.json()).then(catalogo => crearArticulos(catalogo.discos));
     function crearArticulos(lista){
         lista.forEach(element => {
             let cardContenedor = document.createElement('div');

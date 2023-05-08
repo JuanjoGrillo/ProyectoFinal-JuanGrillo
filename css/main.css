@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+header {
+  display: flex;
+  font-size: 2rem; }
+
+header ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-self: center;
+  cursor: pointer; }
+
+html {
+  font-size: 10px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  background-color: gray; }
+
+.index {
+  display: flex;
+  background-color: cadetblue; }
+
+.index > * {
+  width: 50%; }
+
+.hero {
+  background: url("../imgs/disco-1.jpg");
+  background-size: cover;
+  display: flex; }
+
+.hero p {
+  height: fit-content;
+  background-color: black;
+  align-self: center;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 4rem;
+  color: white; }
+
+.form1, .form2 {
+  padding: 0 6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem; }
+
+.form1 button,
+.form2 button {
+  margin: 2rem 0;
+  padding: 0.5rem 0; }
+
+.form1 input,
+.form2 input {
+  padding: 0.6rem 0; }
+
+.form1 fieldset,
+.form2 fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 1rem 0; }
+
+.tienda > ul:nth-of-type(1) {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  padding: 2rem;
+  cursor: pointer; }
+
+.tienda ul:nth-of-type(2) {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  padding: 2rem;
+  cursor: pointer;
+  background-color: chartreuse; }
+
+.etapas {
+  width: 60%;
+  margin: 0 auto;
+  background-color: tomato; }
+
+.etapas * {
+  margin: 1rem 0;
+  border: none; }
+
+.card {
+  width: 60%;
+  margin: 0 auto; }
+
+.card h3 {
+  font-size: 2rem;
+  text-align: center; }
+
+.card * {
+  width: 100%; }
+
+.card > div * {
+  width: fit-content;
+  padding: 1rem; }
+
+.card > div {
+  display: flex;
+  justify-content: space-around; }
+
+.listaProductos {
+  display: flex;
+  flex-direction: column; }
+
+.contenedorBotones {
+  width: fit-content;
+  height: fit-content;
+  margin: 1rem auto; }
